@@ -8,3 +8,8 @@ for i in range(10,0,-1):
 fruits = ["apple","banana","cherry"]
 for fruit in (fruits):
     print(fruit)
+
+# 3. Print a word 5 times
+# Use a for loop to print the word "hello" exactly 5 times.
+for i in range(5):
+    print("hello")
