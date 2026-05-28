@@ -12,7 +12,7 @@ for i in number[::-1]:
     print(i)
     
 # 4.
-num = 5
+num = int(input("Enter a number: "))
 factorial = 1
 for i in range(1,num+1):
     factorial *= i
