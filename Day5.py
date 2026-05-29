@@ -22,3 +22,19 @@ while num != 0:
     num = num//10
     count +=1
 print("Total digits:",count)
+
+
+# 2.Check if a number is palindrome
+num = int(input("Enter a number:"))
+original = num
+reverse = 0
+
+while num>0:
+    digits = num % 10
+    reverse = reverse *10 + digits
+    num = num//10
+
+if original == reverse:
+    print("Palindrome")
+else:
+    print("Not a Palindrome")
