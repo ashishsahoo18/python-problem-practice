@@ -34,3 +34,26 @@ for i in range (5,0,-1):
     for j in range(5,5-i,-1):
         print(j,end="")
     print()
+
+# 6.Print Fibonacci series
+# Example:
+# 0 1 1 2 3 5 8 13
+
+count = 8
+a = 0
+b = 1
+for i in range(count):
+    print(a,end=" ")
+
+    next_number = a+b
+    a = b
+    b = next_number 
+
+# 7.Print this pattern
+# 1
+# 22
+# 333
+# 4444
+# 55555
+for i in range (1,6):
+    print(str(i)*i)
