@@ -10,3 +10,10 @@ total = 0
 for i in range (1,11):
     total += i
     print("Square of ",i,"=",i*i)
+
+# 3.Print the square of numbers .
+num =int(input("Enter a number: "))
+total = 0
+for i in range (num):
+    total += i
+    print("Square of ",i,"=",i*i)
