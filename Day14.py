@@ -8,3 +8,10 @@ if __name__ == '__main__':
 
 
 # 2.
+if __name__ == '__main__':
+    n = int(input())
+    for i in range(n):
+        print(i*i)
+
+
+# 3.
