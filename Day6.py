@@ -13,17 +13,6 @@ for i in range(1,6):
     print("*"*i)
     
     
-# 3.Print this pattern
-# 1
-# 12
-# 123
-# 1234
-# 12345
-for i in range (1,6):
-    for j in range(1,1+i):
-        print(j,end="")
-    print()
-
 # 4.Print this reverse pattern
 # 54321
 # 5432
