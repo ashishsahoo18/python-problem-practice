@@ -14,3 +14,12 @@ for i in range(count):
     b = next_number
 
 # To continue or extend the sequence, use the recursive formula:\(F_{n} = F_{n-1} + F_{n-2}\)
+
+num = int(input("Enter a number:"))
+a,b = 0,1
+print(f"{a} {b}", end=" ")
+
+for i in range(2,num):
+    c = a+b
+    print(c, end=" ")
+    a,b = b,c
