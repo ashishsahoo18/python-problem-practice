@@ -1,5 +1,5 @@
 if __name__ == '__main__':
-    n = int(input())
+    n = int(input("Enter number of students:"))
     student_marks = {}
     for _ in range(n):
         name, *line = input().split()
@@ -14,7 +14,7 @@ if __name__ == '__main__':
 # 2.
 import re 
 
-s = input()
+s = input("Enter a string:")
 match = re.search(r'([a-zA-Z0-9])\1+',s )
 if match:
     print(match.group(1))
