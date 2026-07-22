@@ -1,6 +1,6 @@
 # 1. Count digits in a number
 # A.using string
-num = input("Enter a number:")
+num =input("Enter a number:")
 
 print("Total digits:", len(num))
 
