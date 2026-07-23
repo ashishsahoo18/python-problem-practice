@@ -106,3 +106,19 @@ for i in range(0, t):
         p.yearPasses()       
     p.amIOld()
     print("")
+
+    # Day 5
+    #!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+if __name__ == '__main__':
+    n = int(input().strip())
+for i in range(1,11):
+    print(n,"x",i,"=",n*i)
