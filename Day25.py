@@ -1,11 +1,11 @@
 # HackerRank problem practice in 30 Days.
 
-# Day 1
+# Day 0
 s = input()
 print("Hello, World.")
 print(s)
 
-# Day 2
+# Day 1
 i = 4
 d = 4.0
 s = 'HackerRank '
@@ -21,7 +21,7 @@ print(d+d2)
 print(s + s2)
 
 
-# Day 3
+# Day 2
 #!/bin/python3
 
 import math
@@ -54,3 +54,26 @@ if __name__ == '__main__':
     tax_percent = int(input().strip())
 
     solve(meal_cost, tip_percent, tax_percent)
+
+
+# Day 3
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+if __name__ == '__main__':
+    N = int(input().strip())
+if N %2 != 0:
+    print("Weird")
+elif 2<= N <=5:
+    print("Not Weird")
+elif 6<= N <=20:
+    print("Weird")
+else:
+    print("Not Weird")
