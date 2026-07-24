@@ -9,8 +9,6 @@ print(s)
 i = 4
 d = 4.0
 s = 'HackerRank '
-d = 4.0
-s = 'HackerRank '
 
 i2 = int(input())
 d2 = float(input())
@@ -122,3 +120,9 @@ if __name__ == '__main__':
     n = int(input().strip())
 for i in range(1,11):
     print(n,"x",i,"=",n*i)
+
+# day 6
+t = int(input())
+for s in range(t):
+    s = input()
+    print(s[::2],s[1::2])
