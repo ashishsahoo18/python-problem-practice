@@ -143,3 +143,24 @@ if __name__ == '__main__':
 
     arr = list(map(int, input().rstrip().split()))
 print(*arr[::-1])
+
+# Day8
+n = int(input())
+
+phone_book = {}
+
+for i in range(n):
+    name,number = input().split()
+    phone_book[name] = number
+    
+while True:
+    try:
+        query = input()
+        
+        if query in phone_book:
+            print(f"{query}={phone_book[query]}")
+        else:
+            print("Not found")
+    
+    except EOFError:
+        break
