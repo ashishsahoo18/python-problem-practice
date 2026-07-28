@@ -196,3 +196,29 @@ if __name__ == '__main__':
     fptr.write(str(result) + '\n')
 
     fptr.close()
+
+# Day10
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+if __name__ == '__main__':
+    n = int(input().strip())
+binary = bin(n)[2:]
+
+count = 0
+max_count = 0
+
+for digit in binary:
+    if digit == '1':
+        count += 1
+        max_count = max(max_count,count)
+    else:
+        count = 0
+print(max_count)
