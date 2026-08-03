@@ -11,7 +11,7 @@ number = "1234"
 for i in number[::-1]:
     print(i)
     
-# 4.
+# 4.calculate factorial value.
 num = int(input("Enter a number: "))
 factorial = 1
 for i in range(1,num+1):
