@@ -22,6 +22,12 @@ if n == n[::-1]:
 else:
     print("Not a palindrome")
 
+
+# A 
+# B C 
+# D E F 
+# G H I J 
+# K L M N O 
 n = 5
 ch = ord("A")
 for i in range(1,n+1):
@@ -30,15 +36,28 @@ for i in range(1,n+1):
         ch +=1
     print()
 
+
+# A
+# BB
+# CCC
+# DDDD
+# EEEEE
 n = 5
 for i in range(1,n+1):
     print(chr(ord("A") + i-1) * i)
 
+
+# A 
+# A B 
+# A B C 
+# A B C D 
+# A B C D E 
 n = 5
 for i in range(1,n+1):
     for j in range(i):
         print(chr(ord("A")+j),end=" ")
     print()
+
 
 n = 5
 ch = ord("A")
