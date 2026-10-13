@@ -776,5 +776,16 @@ mylist.display(head);
 # 3 6 10
 # Sample Output:-
 # 1 1
-
-
+# Answer:
+# vector<int> compareTriplets(vector<int> a, vector<int> b) {
+#     int Alice = 0;
+#     int Bob = 0;
+#     for(int i = 0; i<3; i++){
+#         if(a[i] > b[i]){
+#             Alice++;
+#         }
+#         else if(a[i] < b[i]){
+#             Bob++;
+#         }
+#     }
+#     return {Alice , Bob};
