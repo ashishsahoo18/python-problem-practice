@@ -1,5 +1,7 @@
 //  Q) Reverse Integer
 
+#include <climits>
+
 class Solution {
 public:
     int reverse(int x) {

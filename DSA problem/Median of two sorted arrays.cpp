@@ -1,9 +1,13 @@
+#include <vector>
+
+using namespace std;
+
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
         vector <int> merged;
-        int i=0;
-        int j=0;
+        vector<int>::size_type i=0;
+        vector<int>::size_type j=0;
 
         while(i<nums1.size() && j<nums2.size()){
             if(nums1[i]<nums2[j]){
@@ -25,15 +29,14 @@ public:
             j++;
         }
 
-        int n=merged.size();
+        vector<int>::size_type n=merged.size();
 
         if(n % 2 == 1){
             return merged[n/2];
         }
         else{
-            return (merged[n/2 -1] + merged[n/2]) / 2.0;
+            return (static_cast<double>(merged[n/2 - 1]) + merged[n/2]) / 2.0;
         }
         
     }
 };
-
